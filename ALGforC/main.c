@@ -7,9 +7,21 @@
 //
 
 #include <stdio.h>
+#include "StringReverse.h"
+#include "ListReverse.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    printf("Hello, World!\n");
+//    stirng Reverse
+//    char str[] = "hello,word";
+//    char* resultStr = stringReverse(str);
+//    printf("reverse string: %s",resultStr);
+//    return 0;
+    
+    //list reverse
+    struct Node *node = constructNode();
+    printNodeList(node);
+    node = listReverse(node);
+    printNodeList(node);
     return 0;
 }
