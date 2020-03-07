@@ -10,6 +10,7 @@
 		C6C0B7A824134E150070E048 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = C6C0B7A724134E150070E048 /* main.c */; };
 		C6C0B7B0241352270070E048 /* StringReverse.c in Sources */ = {isa = PBXBuildFile; fileRef = C6C0B7AF241352270070E048 /* StringReverse.c */; };
 		C6C0B7B3241355BB0070E048 /* ListReverse.c in Sources */ = {isa = PBXBuildFile; fileRef = C6C0B7B2241355BB0070E048 /* ListReverse.c */; };
+		C6C0B7B6241390780070E048 /* OrderArrayMerge.c in Sources */ = {isa = PBXBuildFile; fileRef = C6C0B7B5241390780070E048 /* OrderArrayMerge.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		C6C0B7AF241352270070E048 /* StringReverse.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = StringReverse.c; sourceTree = "<group>"; };
 		C6C0B7B1241355BB0070E048 /* ListReverse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListReverse.h; sourceTree = "<group>"; };
 		C6C0B7B2241355BB0070E048 /* ListReverse.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ListReverse.c; sourceTree = "<group>"; };
+		C6C0B7B4241390780070E048 /* OrderArrayMerge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderArrayMerge.h; sourceTree = "<group>"; };
+		C6C0B7B5241390780070E048 /* OrderArrayMerge.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = OrderArrayMerge.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				C6C0B7AF241352270070E048 /* StringReverse.c */,
 				C6C0B7B1241355BB0070E048 /* ListReverse.h */,
 				C6C0B7B2241355BB0070E048 /* ListReverse.c */,
+				C6C0B7B4241390780070E048 /* OrderArrayMerge.h */,
+				C6C0B7B5241390780070E048 /* OrderArrayMerge.c */,
 			);
 			path = ALGforC;
 			sourceTree = "<group>";
@@ -129,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6C0B7A824134E150070E048 /* main.c in Sources */,
+				C6C0B7B6241390780070E048 /* OrderArrayMerge.c in Sources */,
 				C6C0B7B3241355BB0070E048 /* ListReverse.c in Sources */,
 				C6C0B7B0241352270070E048 /* StringReverse.c in Sources */,
 			);
