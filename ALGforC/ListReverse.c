@@ -9,6 +9,7 @@
 #include "ListReverse.h"
 
 
+
 struct Node {
     int data;
     struct Node *next;
@@ -39,11 +40,11 @@ struct Node* listReverse(struct Node *node ){
 
 
 
-struct Node * constructNode(){
+struct Node * constructNode(int len){
     
     struct Node *head = NULL;
     struct Node *cur = NULL;
-    for (int i = 0; i < 10; i++) {
+    for (int i = 0; i < len; i++) {
         struct Node * node = malloc(sizeof(struct Node));
         //C中对象属性一定要初始化，防止野指针。
         node->data = i;
@@ -58,4 +59,16 @@ struct Node * constructNode(){
         
     }
     return head;
+}
+
+void freeNode(struct Node *node, int len){
+    struct Node *temp = node;
+    struct Node *newH = node;
+    int i = len;
+    while ((i--)> 0 && newH != NULL){
+        temp = newH->next;
+        free(newH);
+        newH = temp;
+    }
+    
 }

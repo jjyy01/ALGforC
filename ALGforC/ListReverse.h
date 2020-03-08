@@ -10,10 +10,13 @@
 #define ListReverse_h
 
 #include <stdio.h>
+#include <stdlib.h>
 
 struct Node;
-struct Node * constructNode();
+struct Node * constructNode(int len);
+void freeNode(struct Node *node, int len);
 void printNodeList(struct Node *node);
 struct Node *  listReverse(struct Node *node);
+
 
 #endif /* ListReverse_h */

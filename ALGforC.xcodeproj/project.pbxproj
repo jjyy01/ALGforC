@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C699F72624148286007F05CD /* HashALG.c in Sources */ = {isa = PBXBuildFile; fileRef = C699F72524148286007F05CD /* HashALG.c */; };
 		C6C0B7A824134E150070E048 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = C6C0B7A724134E150070E048 /* main.c */; };
 		C6C0B7B0241352270070E048 /* StringReverse.c in Sources */ = {isa = PBXBuildFile; fileRef = C6C0B7AF241352270070E048 /* StringReverse.c */; };
 		C6C0B7B3241355BB0070E048 /* ListReverse.c in Sources */ = {isa = PBXBuildFile; fileRef = C6C0B7B2241355BB0070E048 /* ListReverse.c */; };
@@ -26,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C699F72424148286007F05CD /* HashALG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HashALG.h; sourceTree = "<group>"; };
+		C699F72524148286007F05CD /* HashALG.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HashALG.c; sourceTree = "<group>"; };
 		C6C0B7A424134E150070E048 /* ALGforC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ALGforC; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6C0B7A724134E150070E048 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		C6C0B7AE241352270070E048 /* StringReverse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringReverse.h; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 			isa = PBXGroup;
 			children = (
 				C6C0B7A724134E150070E048 /* main.c */,
+				C699F72424148286007F05CD /* HashALG.h */,
+				C699F72524148286007F05CD /* HashALG.c */,
 				C6C0B7AE241352270070E048 /* StringReverse.h */,
 				C6C0B7AF241352270070E048 /* StringReverse.c */,
 				C6C0B7B1241355BB0070E048 /* ListReverse.h */,
@@ -137,6 +142,7 @@
 				C6C0B7B6241390780070E048 /* OrderArrayMerge.c in Sources */,
 				C6C0B7B3241355BB0070E048 /* ListReverse.c in Sources */,
 				C6C0B7B0241352270070E048 /* StringReverse.c in Sources */,
+				C699F72624148286007F05CD /* HashALG.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
